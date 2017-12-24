@@ -18,6 +18,8 @@ namespace JJFS.Modifiers {
             Selection.activeObject = asset;
         }
 
+
+        //UNIMPLEMENTED
         /*
         [MenuItem("JJ_Systems/JJFS/Modifiers/Flickering")]
         public static void Flickering()
