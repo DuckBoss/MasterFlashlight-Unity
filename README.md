@@ -12,8 +12,8 @@ You can add modifiers such as 'Battery life' by attaching a Battery Modifier ass
 ## Live Features
 - Base flashlight system
 - Battery modifier
-    - Light dimming/fading after battery capacity threshold.
-    - Battery power to determine if the flashlight can turn on.
+   - Light dimming/fading after battery capacity threshold.
+   - Battery power to determine if the flashlight can turn on.
   
 
 ### More features to come as I think of some!
