@@ -1,7 +1,7 @@
 # MasterFlashlight-Unity
 A flashlight system that will have an extensive set of features
 
-[![GitHub release](https://img.shields.io/badge/Build-1.0-brightgreen.svg)](https://github.com/DuckBoss/MasterFlashlight-Unity/releases/latest)
+[![GitHub release](https://img.shields.io/badge/Build-1.01-brightgreen.svg)](https://github.com/DuckBoss/MasterFlashlight-Unity/releases/latest)
 [![Packagist](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/DuckBoss/MasterFlashlight-Unity/blob/master/LICENSE)
 
 
