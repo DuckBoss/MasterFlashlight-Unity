@@ -106,7 +106,15 @@ public class MasterFlashlight : MonoBehaviour {
 		//Drain Battery if in use. <uses battery modifier>
 		if(usingBatteryModifier()) {
 			if(isOn()) {
+				//Drains battery life.
 				batteryCurrent -= Time.deltaTime * batteryModifier.batteryDrainRate;
+				
+				//Fades light after a battery life threshold is reached.
+				if(batteryCurrent < batteryModifier.batteryCapacity/batteryModifier.lightFadeRatio) {
+					UpdateLightIntensity((batteryCurrent*batteryModifier.lightFadeRatio)/batteryModifier.batteryCapacity);
+				}
+
+				//Shuts off lighting if the battery is dead.
 				if(batteryCurrent < 0) {
 					batteryCurrent = 0;
 					lightSource.enabled = false;
