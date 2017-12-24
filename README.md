@@ -10,10 +10,10 @@ Simply attach the MasterFlashlight script to your player and assign the referenc
 You can add modifiers such as 'Battery life' by attaching a Battery Modifier asset.
 
 ## Live Features
-1) Base flashlight system
-2) Battery modifier
-  - Light dimming/fading after battery capacity threshold.
-  - Battery power to determine if the flashlight can turn on.
+- Base flashlight system
+- Battery modifier
+    - Light dimming/fading after battery capacity threshold.
+    - Battery power to determine if the flashlight can turn on.
   
 
 ### More features to come as I think of some!
