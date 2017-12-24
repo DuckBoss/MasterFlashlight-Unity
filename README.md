@@ -16,4 +16,4 @@ You can add modifiers such as 'Battery life' by attaching a Battery Modifier ass
   - Battery power to determine if the flashlight can turn on.
   
 
-###More features to come as I think of some!
+### More features to come as I think of some!
